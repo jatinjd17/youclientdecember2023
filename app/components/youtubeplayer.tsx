@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import YouTube from "react-youtube";
 
 function Youtubeplayer({ Videodetails }: any) {
-  const [player, setPlayer] = useState(null);
+  const [player, setPlayer]: any = useState(null);
 
   useEffect(() => {
     console.log(Videodetails);
@@ -18,11 +18,11 @@ function Youtubeplayer({ Videodetails }: any) {
     },
   };
 
-  const onReady = (event) => {
+  const onReady = (event: any) => {
     setPlayer(event.target);
   };
 
-  const onStateChange = (event) => {
+  const onStateChange = (event: any) => {
     // event.data === 0 indicates the end of the video
     if (event.data === 0) {
       player.seekTo(0);

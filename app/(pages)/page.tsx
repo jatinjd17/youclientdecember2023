@@ -11,28 +11,28 @@ function Home() {
   const [Videodetails, SetVideodetails]: any = useState(null);
   const playerRef = useRef(null);
 
-  const [player, setPlayer] = useState(null);
+  // const [player, setPlayer] = useState(null);
 
-  const opts = {
-    height: "390",
-    width: "640",
-    playerVars: {
-      autoplay: 1,
-      loop: 1,
-      mute: 1,
-    },
-  };
+  // const opts = {
+  //   height: "390",
+  //   width: "640",
+  //   playerVars: {
+  //     autoplay: 1,
+  //     loop: 1,
+  //     mute: 1,
+  //   },
+  // };
 
-  const onReady = (event) => {
-    setPlayer(event.target);
-  };
+  // const onReady = (event) => {
+  //   setPlayer(event.target);
+  // };
 
-  const onStateChange = (event) => {
-    // event.data === 0 indicates the end of the video
-    if (event.data === 0) {
-      player.seekTo(0);
-    }
-  };
+  // const onStateChange = (event) => {
+  //   // event.data === 0 indicates the end of the video
+  //   if (event.data === 0) {
+  //     player.seekTo(0);
+  //   }
+  // };
 
   const fetchData = async () => {
     try {
