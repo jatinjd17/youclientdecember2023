@@ -190,7 +190,7 @@ function VideoCardComponent({ videodetails, Channeldetails }: any) {
           <p>to show your channel here</p>
         </div>
       </div>
-      <div className="mt-4 mr-36">
+      <div className="mt-4 mr-28">
         <Rightcol />
       </div>
     </div>
