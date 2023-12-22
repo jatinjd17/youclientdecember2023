@@ -162,11 +162,11 @@ function VideoCardComponent({ videodetails, Channeldetails }: any) {
                 <img
                   src={Channeldetails.channelthumbnail}
                   alt={Channeldetails.channelname}
-                  className="rounded-full w-40  h-40  object-cover ml-24"
+                  className="rounded-full w-28  hw-28  object-cover ml-24"
                 />
               </div>
 
-              <div className="text-5xl font-extrabold mt-4 mb-4">
+              <div className="text-3xl font-extrabold mt-4 mb-4 mx-4">
                 {Channeldetails.channelname}
               </div>
             </div>
@@ -185,12 +185,12 @@ function VideoCardComponent({ videodetails, Channeldetails }: any) {
           </div>
         </div>
         <Youtubeplayer Videodetails={videodetails} />
-        <div className="text-center text-5xl font-extrabold mt-3 text-red-700">
+        <div className="text-center text-4xl font-extrabold mt-3 text-red-700">
           <p>Type !Wall in Comment</p>
           <p>to show your channel here</p>
         </div>
       </div>
-      <div className="mt-4">
+      <div className="mt-4 mr-36">
         <Rightcol />
       </div>
     </div>

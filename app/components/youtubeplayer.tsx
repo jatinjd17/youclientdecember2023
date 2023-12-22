@@ -9,7 +9,7 @@ function Youtubeplayer({ Videodetails }: any) {
   });
 
   const opts = {
-    height: "390",
+    height: "360",
     width: "640",
     playerVars: {
       autoplay: 1,
