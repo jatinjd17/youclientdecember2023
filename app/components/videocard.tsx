@@ -222,7 +222,7 @@ function VideoCardComponent({ videodetails, Channeldetails }: any) {
               />
             </div>
 
-            <div className="text-3xl font-extrabold flex justify-center text-center mt-6 mb-6 line-clamp-2 ">
+            <div className="text-3xl font-extrabold flex justify-center text-center mt-6 mb-6 line-clamp-2 overflow-visible ">
               {Channeldetails.channelname}
             </div>
           </div>
@@ -233,7 +233,7 @@ function VideoCardComponent({ videodetails, Channeldetails }: any) {
                 <p className="text-xl">{Channeldetails.totalvideos}</p>
                 {/* <p>{Channeldetails.totalviews}</p> */}
               </div>
-              <div className="p-5 bg-orange-600 text-white font-extrabold  w-40 rounded-2xl h-16 text-center mt-2">
+              <div className="p-5 bg-orange-600 text-white font-extrabold  w-40 rounded-2xl h-16 text-center mt-5">
                 {/* <p>{Channeldetails.totalvideos}</p> */}
                 <p className="-mt-3">Total Views</p>
                 <p className="text-xl">{Channeldetails.totalviews}</p>
